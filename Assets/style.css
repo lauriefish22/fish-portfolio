@@ -1,0 +1,29 @@
+
+.back-image {
+    background-repeat: no-repeat;
+    opacity: .4;
+}
+
+
+
+h1 {
+    
+    padding-top: 5px;
+    font-family: 'Space Mono', monospace;
+    font-size: 58px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: 100;
+  
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+
+    
+   
+}
