@@ -1,8 +1,10 @@
-
-.back-image {
-    background-repeat: no-repeat;
-    opacity: .4;
+body {
+    
+    /* background-image: url("./b757vk8s3zfva08p.jpg"); */
+    
+    
 }
+
 
 
 
@@ -14,7 +16,10 @@ h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-weight: 100;
+    color: black;
+    
   
+
 }
 
 h2 {
@@ -23,7 +28,29 @@ h2 {
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
+    color: black;
+}
 
-    
+.box {
+    height: 100px;
+    width: 200px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+   float: left;
+   justify-content: center;
    
+}
+
+.main-box {
+    height: 200px;
+    width: 1000px;
+    border-style: solid;
+    border-color: green;
+    justify-content: center;
+    align-items: center;
+    
 }
