@@ -1,15 +1,12 @@
-main {
-    margin: 0px;
-}
-
-
-.image {
-    position: absolute;
+body {
+    background-image:linear-gradient(to bottom right, teal, #FFBF00, #DE3163);
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 1300px;
     background-size: cover;
-    height: 100%;
-    width: 100%; 
+    justify-content: center;
+    
 }
-
 
 .big-container {
     width: 100%;
@@ -22,12 +19,15 @@ main {
     flex: 30%;
     padding: 20px;
     flex-wrap: wrap;
+    margin-left: 200px;
     
 }
 .big-container > section {
     flex: 70%;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: wrap;
+    justify-content: center;
+    
     
 }
 .all {
@@ -35,42 +35,40 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;   
 }            
 .first-box {
     
-    height: 300px;
-    width: 600px;
-    border: 5px solid black;
+    height: 500px;
+    width: 680px;
+    border-style: solid;
+    border-color:  black;
     background-color: white;
-    opacity: .6;
-    
-    
-   
-   
-    
+    opacity: .8;
+    margin-bottom: 30px;    
+    margin-left: 300px;
+  
 }
 
  .me {
     height: 300px;
     width: 200px;
-    border-style: solid;
-    border-width: 10px;
-    border-color:deeppink;
-    margin-right: 50px;
     
-   
  }
- .me img {
-    width: 100%;
-    height: 100%;
+
+ .me > img {
+    width: 225px;
+    height: 300px;
+    border-style: solid;
+    border-color:  black;
+    margin-left: 200px;
+   
+    
  }
 #Monster img {
     width: 400px;
     height: 200px;
+    background-color: #DE3163;
 }
 #board img {
     width: 400px;
@@ -93,7 +91,6 @@ h1 {
     padding-bottom: 0px;
     font-weight: 100;
     color: black;
-    
     line-height: 20px;
 }
 
@@ -112,28 +109,33 @@ h2 {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
-        margin: 10px;
+        /* margin: 10px; */
         padding: 10px;
 }
 
 .box h1 {
-    margin-top: 15px;
+    margin-top: 5px;
     line-height: 20px;
-    font-size: 24px;
+    font-size: 14px;
     position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
 }
 
 
-
+.box > .title {
+    margin-top: -35px;
+    font-size: 24px;
+}
 
 .big-container {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(.//b757vk8s3zfva08p.jpg);
+    /* background-image: url(.//b757vk8s3zfva08p.jpg); */
+    /* background-image:linear-gradient(to bottom right, teal, #FFBF00, #DE3163); */
     
-    justify-content: center;
-    top: 0;
-    left: 0;
+
+
     
     
  
@@ -149,9 +151,10 @@ h2 {
     border-color:  black;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px;
     justify-content: center;
     background-color: white;
+    
    
 }
 @media screen and (max-width: 992px) {
@@ -171,13 +174,16 @@ h2 {
   }
   nav {
     display: flex;
-    background-color: blue;
+    background-color: #DE3163;
+    opacity: .9;
     margin-top: 15px;
     
   }
   nav a {
-    color: red;
+    color: white;
     text-align: center;
     font-size: 26px;
-    padding: 15px;
+    padding: 9px;
+    font-family: 'Space Mono', monospace;
   }
+  
