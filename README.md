@@ -49,5 +49,5 @@ I have created a portfolio for myself to showcase the projects I have completed 
 
 I need to go back and fix the media settings as I struggled way too long on those and am missing something.  The understanding of flexbox are coming along but more time is needed of course to feel comfortable with them.  
 
-Visit the live site here:
-Github: 
+Visit the live site here: https://lauriefish22.github.io/fish-portfolio/
+Github: https://github.com/lauriefish22/fish-portfolio
